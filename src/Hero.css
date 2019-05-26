@@ -1,0 +1,96 @@
+.HeroGroup {
+    background: url('https://ufc-video.s3.amazonaws.com/styles/background_image_xl/s3/image/2018-09/Khabib1.jpg?YrdATYDvys3kzq9eoFHRcRAGDIxD_o5W&h=92bf13df&itok=BZdhNOMx');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.HeroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    
+}
+
+/* How to wrap text */
+
+p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+button {
+    width: 200px;
+    background: white;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    animation: HoverAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes HoverAnimation {
+    100% {
+        background: #585b63;
+        color: white;
+    }
+}
+
+.HeroFooter {
+    margin: 10px 0;
+    padding: 20px;
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.line {
+    width: 90%;
+    height: 2px;
+    background: gray;
+    display: none;
+}
+
+.HeroFooter a {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    animation: none;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .line {
+        width: 90%;
+        height: 2px;
+        background: gray;
+        display: block;
+        opacity: 0.3;
+    }
+    
+    .HeroFooter a {
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 2.5rem;
+        animation: none;
+        display: block;
+    }
+}

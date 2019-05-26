@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    
+    "cheerio": "^1.0.0-rc.3",
+    "google": "^2.1.0",
+    "mma": "^0.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "request": "^2.88.0",
+    "sherdog": "^0.1.10",
+    "ufc": "^0.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
