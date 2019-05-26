@@ -4,6 +4,7 @@ import Nav from './Nav'
 import Hero from './Hero'
 import Stats from './Stats'
 import Gallery from './Gallery'
+import Event from './Event'
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Hero />
         <Stats />
         <Gallery />
-
+        <Event />
 
 
       </div>

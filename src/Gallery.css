@@ -10,7 +10,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+
+/* .gallary .line {
+    width: 90vw;
+    height: 2px;
+    background: gray;
+    
+    
+} */
 
 .left {
     display: flex;

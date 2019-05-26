@@ -10,16 +10,17 @@ const fan6 = require('./images/khabib-fan-6.jpg')
 const Gallery = () => (
     <div className='gallery'>
         <div className='left'>
+            {/* <div className='line' /> */}
             <img src={fan1} alt='khabib anime' />
             <img src={fan2} alt='khabib anime' />
             <img src={fan3} alt='khabib anime' />
 
         </div>
         <div className='right'>
-        <img src={fan4} alt='khabib anime' />
-        <img src={fan5} alt='khabib anime' />
-        <img src={fan6} alt='khabib anime' />
-
+            <img src={fan4} alt='khabib anime' />
+            <img src={fan5} alt='khabib anime' />
+            <img src={fan6} alt='khabib anime' />
+            {/* <div className='line' /> */}
         </div>
     </div>
 )
