@@ -3,11 +3,13 @@
 .App {
   /* text-align: center; */
   
+  
 }
 
 #main {
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 

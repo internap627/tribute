@@ -16,10 +16,12 @@
 .event-img{
     position: relative;
     display:flex;
+    
 }
 
 .event-img img {
     max-height: 75%;
+    max-width: 50vw;
 }
 
 
