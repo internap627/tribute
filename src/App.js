@@ -5,7 +5,7 @@ import Hero from './Hero'
 import Stats from './Stats'
 import Gallery from './Gallery'
 import Event from './Event'
-
+import Bio from './Bio'
 
 function App() {
   
@@ -17,7 +17,7 @@ function App() {
         <Stats />
         <Gallery />
         <Event />
-
+        <Bio />
 
       </div>
     </div>

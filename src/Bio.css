@@ -1,0 +1,54 @@
+.bio {
+    margin: 72px 0 0 0;
+    padding: 0 18px;
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bio-header h1 {
+    font-size: 3rem;
+}
+
+.bio-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bio-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.bio-block {
+    margin: 1.5rem;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1rem;
+    color: #585b63;
+}
+
+.bio-block p {
+    font-size: 1rem;
+    color: #abadb1;
+}
+
+.bio-block h2 {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .bio-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

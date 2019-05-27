@@ -9,6 +9,10 @@
     justify-content: space-around;
 }
 
+.event h1 {
+    font-size: 3rem;
+}
+
 .event-img{
     position: relative;
     display:flex;
