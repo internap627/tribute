@@ -4,7 +4,7 @@ const khabib = require('./images/KHABIB.png')
 const conor = require('./images/CONOR.png')
 
 const Event = () => (
-    <div className='event'>
+    <div className='event' id='event'>
         <h1>LAST EVENT</h1>
         <div className='event-card'>
             <div className='event-img'>

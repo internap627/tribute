@@ -1,11 +1,11 @@
 .Nav {
     position: fixed;
     background: white;
-    width: 100%;
+    width: 100vw;
     height: 75px;
     display: flex;
     padding: 0 30px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -13,22 +13,40 @@
     
 }
 
-#menu a{
+/* #menu a{
     display: block;
+} */
+
+.left-links {
+    display: none;
 }
 
+.right-links ul li{
+    margin: 0 15px;
+}
+
+.right-links ul{
+    display: flex;
+    justify-content: space-between;
+    
+    /* align-self: flex-end; */
+}
+
+#menu {
+    display: none;
+}
 
 
 ul {
     list-style: none;
-    display: none;
+    /* display: none; */
 }
 
 a {
     text-decoration: none;
     color: black;
     font-weight: 900;
-    display: none;
+    /* display: none; */
     
 }
 
@@ -112,5 +130,9 @@ a:hover {
     
     .right-links ul li {
         flex-basis: 30%;
+    }
+
+    .left-links {
+        display: block;
     }
 }

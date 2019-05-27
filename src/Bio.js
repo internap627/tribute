@@ -3,7 +3,7 @@ import './Bio.css'
 const khabibL = require('./images/KHABIB-L.png')
 
 const Bio = () => (
-    <div className='bio'>
+    <div className='bio' id='bio'>
         <div className='bio-header'>
             <h1>BIOGRAPHY</h1>
         </div>

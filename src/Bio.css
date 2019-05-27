@@ -12,7 +12,7 @@
 }
 
 .bio-header h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .bio-body {
@@ -55,5 +55,8 @@ figcaption {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+    .bio-header h1 {
+        font-size: 3rem;
     }
 }

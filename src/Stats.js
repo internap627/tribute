@@ -2,7 +2,7 @@ import React from 'react'
 import './Stats.css'
 
 const Stats = () => (
-    <div className='stats'>
+    <div className='stats' id='stats'>
         <h1>STATS & RECORDS</h1>
         <div className='numbers'>
             <div className='first'>
