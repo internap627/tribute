@@ -6,6 +6,7 @@ import Stats from './Stats'
 import Gallery from './Gallery'
 import Event from './Event'
 import Bio from './Bio'
+import Comments from './Comments';
 
 function App() {
   
@@ -18,7 +19,7 @@ function App() {
         <Gallery />
         <Event />
         <Bio />
-
+        <Comments />
       </div>
     </div>
   );

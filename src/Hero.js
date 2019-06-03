@@ -12,7 +12,7 @@ const Hero = () => (
             
             <div className='HeroFooter'>
             <div className='line' />
-            <a href='https://twitter.com/TeamKhabib' target='_blank'>TWITTER</a>
+            <a href='https://twitter.com/TeamKhabib' rel='noopener noreferrer' target='_blank'>TWITTER</a>
             </div>
         </div>
         
