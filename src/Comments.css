@@ -43,6 +43,7 @@
     quotes: "\201C""\201D""\2018""\2019";
     width: 15rem;
     box-sizing: border-box;
+    transition: 1.5s cubic-bezier(0.2, 0.8, 0.2, 1);
   }
   .blockquote:before {
     color: #ccc;
@@ -59,6 +60,24 @@
     color: white;
   }
 
-  @media(min-width: 768px) {
-      
+  .blockquote:hover {
+    box-shadow: 0 10px 70px rgba(126, 121, 121, 0.5);
+ }
+
+  .blockquote:nth-child(even) {
+      justify-self: flex-start;
+  }
+
+  .blockquote:nth-child(odd) {
+    justify-self: flex-end;
+}
+
+  @media(min-width: 491px) {
+    .blockquote:nth-child(even) {
+        justify-self: baseline;
+    }
+  
+    .blockquote:nth-child(odd) {
+      justify-self: baseline;
+  }
   }
