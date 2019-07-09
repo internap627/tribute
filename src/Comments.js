@@ -15,10 +15,9 @@ export default function Comments () {
 
   const fetchComments = () => {
     let dbComments = [];
-    db.collection('comments').onSnapshot(snapshot => {
-      let changes = snapshot.docChanges();
-      changes.forEach(doc => {
-        dbComments = [doc.doc.data(), ...dbComments];
+    db.collection('comments').get().then(snapshot => {
+      snapshot.forEach(doc => {
+        dbComments.push(doc.data());
       });
 
       setComments([...dbComments]);
@@ -42,7 +41,7 @@ export default function Comments () {
       const upperCase =
         transcript.charAt(0).toUpperCase() + transcript.substring(1);
       postComment(upperCase);
-      //   fetchComments();
+      fetchComments();
     };
   };
 
